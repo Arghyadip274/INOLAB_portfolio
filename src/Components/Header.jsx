@@ -6,10 +6,10 @@ const Header = () => {
         <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">Gel Fuel Injector Project</h1>
         <nav>
           <ul className="flex space-x-4">
-            <li><a href="#about" className="hover:underline">About</a></li>
-            <li><a href="#team" className="hover:underline ">Team</a></li>
-            <li><a href="#project-details" className="hover:underline">Project Details</a></li>
-            <li><a href="#contact" className="hover:underline">Contact</a></li>
+            <li><a href="#about" className="hover:italic">About</a></li>
+            <li><a href="#team" className="hover:italic ">Team</a></li>
+            <li><a href="#project-details" className="hover:italic">Project Details</a></li>
+            <li><a href="#contact" className="hover:italic">Contact</a></li>
           </ul>
         </nav>
       </div>

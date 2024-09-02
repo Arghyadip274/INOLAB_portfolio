@@ -35,12 +35,12 @@ const Team = () => {
 
   return (
     <section id="team" className="bg-gray-100 text-gray-900 p-8">
-      <div className="container mx-auto">
-        <h2 className="text-2xl font-bold mb-4">Meet the Team</h2>
+      <div className="container mx-auto  rounded-xl">
+        <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">Meet the Team</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {teamMembers.map((member, index) => (
             <div key={index} className="bg-white p-4 shadow-lg rounded">
-              <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
+              <h3 className="hover:italic text-xl font-semibold mb-2">{member.name}</h3>
               <p className="mb-4">{member.role}</p>
             </div>
           ))}

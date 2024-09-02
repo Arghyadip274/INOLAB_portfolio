@@ -4,7 +4,7 @@ const ProjectDetails = () => {
   return (
     <section id="project-details" className="bg-white text-gray-900 p-8">
       <div className="container mx-auto">
-        <h2 className="text-2xl font-bold mb-4">Project Details</h2>
+        <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">Project Details</h2>
         <p>
           The Gel Fuel Injector project involves the following key tasks:
         </p>
