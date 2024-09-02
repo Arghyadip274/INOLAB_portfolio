@@ -1,8 +1,9 @@
-import Header from './components/Header';
-import About from './components/About';
-import Team from './components/Team';
-import ProjectDetails from './components/ProjectDetails';
-import Footer from './components/Footer';
+import React from 'react';
+import Header from './Components/Header';
+import About from './Components/About';
+import Team from './Components/Team';
+import ProjectDetails from './Components/ProjectDetails';
+import Footer from './Components/Footer';
 
 function App() {
   return (
