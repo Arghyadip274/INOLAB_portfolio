@@ -27,7 +27,7 @@ const Team = () => {
       role: 'CAD',
     },
     {
-      name: 'Satvik Jaiswal (22AE30025)',
+      name: 'Satvik Jaiswal (22AE30024)',
       role: 'CAD & CFD',
     },
     // Add more team members as needed
